@@ -8,6 +8,7 @@ app.use(bodyParser.json());
 
 app.use('/', routes);
 
+
 app.listen(port, () => {
     console.log(`app listening at http://localhost:${port}`)
 });
